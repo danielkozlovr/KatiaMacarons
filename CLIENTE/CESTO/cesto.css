@@ -1,0 +1,317 @@
+
+.cesto{
+    padding-top: 7%;
+}
+
+.table-produtos{
+    margin: auto;
+    width: 78%;
+}
+
+.table-td{
+    display: flex;
+}
+
+.table-td1{
+    font-weight: 700;
+    font-size: 22px;
+    width: 70%;
+}
+.table-td1-2{
+    text-align: right;
+    font-size: 22px;
+    width: 30%;
+}
+
+.table-td1-2 button{
+    
+    font-weight: normal;
+    border-radius: 0%;
+    background-color: black;
+    color: white;
+}
+
+.table-td1-2 button:hover{
+    background-color:#a2a2a1;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+
+.hr-color{
+    border: 0.5px solid gainsboro ;
+}
+
+.table-td2{
+    font-weight: 500;
+    font-size: 18px;
+    width: 30%;
+}
+
+.table-td2-2{
+    font-weight: 500;
+    font-size: 18px;
+    width: 10%;
+}
+
+.table-td2-3{
+    padding-left: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    width: 20%;
+}
+
+.table-td2-4{
+    font-weight: 500;
+    font-size: 18px;
+    width: 20%;
+}
+
+.div-imagem{
+    display:flex;
+    width: 30%;
+}
+
+.div-imagem img{
+    width: 30%;
+}
+
+.div-imagem p{
+    color: grey;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.div-preco{
+    text-align: left;
+    width: 10%;
+}
+
+.div-preco p{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.div-qtd{
+    display: flex;
+    text-align: left;
+    width: 20%;
+}
+
+.div-qtd p{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.div-qtd input{
+    text-align: center;
+    width:30px;
+    height: 30px;
+}
+
+.div-qtd .button-limpar{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+
+.div-sub{
+    text-align: left;
+    width: 10%;
+}
+
+.div-sub p{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.div-eliminar{
+    width: 10%;
+}
+
+.div-eliminar img{
+    cursor: pointer;
+    margin-left: 150px;
+    margin-top: 40px;
+    width: 15%;
+}
+
+.div-qtd .button-limpar{
+    font-weight: normal;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    background-color:white;
+    color: black;
+    border:  solid black;
+    text-decoration:none;
+}
+
+.button-limpar{
+
+    font-weight: normal;
+    cursor: pointer;
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    background-color:black;
+    color: white;
+}
+
+.button-esvaziar{
+    font-weight: normal;
+    cursor: pointer;
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    background-color:#ff6348;
+    color: white;
+}
+
+
+.div-qtd .button-limpar:hover{
+    background-color:black;
+    color: white;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+
+.button-limpar:hover{
+    border: solid black;
+    background-color:white;
+    color: black;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+
+.button-esvaziar:hover{
+    background-color:red;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+
+::placeholder{
+    color: black;
+}
+
+input[type=submit] 
+ { 
+        border: 0 
+ }
+
+.div-final{
+    border-top: 1px solid gainsboro ;
+    border-bottom: 1px solid gainsboro ;
+    display: flex;
+    background-color: #F5F5F5;
+}
+
+.div-adicionar{
+    padding-left: 5px;
+    padding-top:7px;
+    height: 60px;
+    width: 30%;
+}
+
+.div-total{
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: center;
+    width: 35%;
+}
+
+.div-resultado{
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: center;
+    width: 35%;
+}
+
+.div-esvaziar{
+    padding-right: 5px;
+    padding-top:7px;
+    height: 60px;
+    width: 30%;
+}
+
+.div-qtd .div-update{
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.div-qtd .div-update button{
+    width: 10px;
+    background-color: white;
+}
+
+.div-qtd .div-update img{
+    width: 20px;
+}
+
+.button-checkout{
+    background-color: transparent;
+    width: 10%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.button-checkout:hover{
+    color:white;
+    background-color:black ;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+
+.div-containerrr{
+    padding-top: 7%;
+}
+
+.p-titulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.div-pagamento{
+    border-radius: 10px;
+    text-align: center;
+    margin:auto;
+    width: 70%;
+    height: 50%;
+}
+
+.div-pagamento .div-conteudo{
+    background-color:white;
+    border-radius: 10px;
+    margin: auto;
+    width: 90%;
+    height: 70%;
+    box-shadow: 0px 0px 1px 2px lightgrey;
+}
+
+span{
+    padding:.4rem ;
+    display: inline-block;
+    width: 22%;
+    height: 15%;
+    border-radius: 5px;
+    background-color:#ededee;
+    font-weight: bold;
+}
+
+.div-conteudo-p{
+    padding-top:10px;
+}

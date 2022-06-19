@@ -1,0 +1,74 @@
+.div-lista-definicoes{
+    margin-top: 10%;
+    width: 50%;
+    border-bottom: 0.5px solid black;
+}
+
+.div-lista-definicoes a{
+    font-size: 17px;
+    color: black;
+    padding: 20px;
+}
+
+
+.div-informacao{
+    margin-top:5px;
+    width: 50%;
+}
+
+.div-informacao h3{
+    text-align: left;
+}
+.hr{
+    width: 50%;
+    text-align: center;
+}
+
+.div-dados{
+    display: flex;
+    width: 50%;
+}
+.div-dados-esq{
+    font-size: 15px;
+    text-align: left;
+    width: 80%;
+}
+
+.div-dados-dir{
+    font-size: 15px;
+    text-align: center;
+    width: 20%;
+}
+
+.div-dados-dir .editar{
+    padding: 0px;
+    margin-top: 30px;
+    width: 80px;
+    height: 30px;
+    font-size: 13px;
+    border: 0.5px solid black;
+    border-radius: 0px;
+    font-weight: normal;
+    background-color: white;
+    color: black;
+}
+
+.div-dados-dir .editar:hover{
+    color:white;
+    background-color:black ;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+    
+}
+
+.div-dados-dir .editar img:hover{
+    filter: brightness(0) invert(1);
+}
+
+.div-dados-dir .editar img{
+
+    width: 23px;
+}
+
